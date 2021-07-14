@@ -1,0 +1,22 @@
+{
+    "presets": [
+        "env",
+        "react"
+    ],
+    "plugins": [
+        "transform-decorators-legacy",
+        "transform-runtime",
+        "react-hot-loader/babel",
+        "add-module-exports",
+        "transform-object-rest-spread",
+        "transform-class-properties",
+        "syntax-dynamic-import",
+        [
+            "import",
+            {
+                "libraryName": "antd",
+                "style": true
+            }
+        ]
+    ]
+}
